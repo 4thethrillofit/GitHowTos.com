@@ -1,0 +1,5 @@
+= wrap_layout :layout do
+  .article-layout
+    .panel.hero
+      h1.main-heading = current_article.title
+    article.article-content.small-8.columns.row = yield
