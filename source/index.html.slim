@@ -1,7 +1,24 @@
----
-title: Middleman SEO Template
----
+.index-content
+  .panel.hero
+    h1.main-heading Git How-to's
+    h2.secondary-heading Quick n' dirty reference on how to do anything in Git
 
-h1 Middleman SEO template by Secret Sauce
-p.doc
-  = link_to "Read Online Documentation", "http://github.com/secretsaucehq/middleman-seo"
+  .article-list.small-8.columns.row
+    - page_articles.each_with_index do |article, i|
+      article.article
+        header.article-header
+          h3.article-title = link_to article.title, article
+        section.article-excerpt
+          p = article.summary
+        /* .article-meta */
+          /* - article.tags.each_with_index do |tag, i| */
+          /*   = link_to tag, tag_path(tag), class: 'category' */
+          /*   - if i != article.tags.count - 1 */
+
+    - if paginate && num_pages > 1
+      nav.pagination role='pagination'
+        - if prev_page
+          = link_to '← Newer Posts', prev_page, class: 'newer-articles'
+        span.page-number Page #{page_number} of #{num_pages}
+        - if next_page
+          = link_to 'Older Posts →', next_page, class: 'older-articles'

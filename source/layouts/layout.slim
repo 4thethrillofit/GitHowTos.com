@@ -36,6 +36,7 @@ html itemscope='' itemtype='http://schema.org/WebPage' lang=data.site.language
       link rel='canonical' href=current_page.data.preferred_url
 
     = stylesheet_link_tag :site
+    script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js'
     = javascript_include_tag :site
     = favicon_tag 'images/favicon.ico'
     = favicon_tag 'images/favicon.ico', rel: 'apple-touch-icon', type: 'image/png'
@@ -45,5 +46,7 @@ html itemscope='' itemtype='http://schema.org/WebPage' lang=data.site.language
       = yield
 
     / Footer
-    footer
+    footer.small-8.columns.row
+      hr
       = link_to 'Sitemap', 'sitemap'
+
