@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: #<Middleman::CoreExtensions::Collections::LazyCollectorStep:0x007fd720d76708>/sitemap.xml
