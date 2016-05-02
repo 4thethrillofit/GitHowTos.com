@@ -1,0 +1,28 @@
+{
+  "name": "git-how-tos",
+  "version": "1.0.0",
+  "description": "https://githowtos.com",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "node-normalize-scss": "^1.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4thethrillofit/githowtos.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4thethrillofit/githowtos.com/issues"
+  },
+  "homepage": "https://github.com/4thethrillofit/githowtos.com#readme"
+}
