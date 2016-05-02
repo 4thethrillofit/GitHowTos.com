@@ -58,6 +58,10 @@ GEM
       middleman-cli (= 4.1.7)
       middleman-core (= 4.1.7)
       sass (>= 3.4.0, < 4.0)
+    middleman-blog (4.0.1)
+      addressable (~> 2.3)
+      middleman-core (>= 4.0.0)
+      tzinfo (>= 0.3.0)
     middleman-cli (4.1.7)
       thor (>= 0.17.0, < 2.0)
     middleman-core (4.1.7)
@@ -148,6 +152,7 @@ DEPENDENCIES
   builder
   dotenv
   middleman (~> 4.1)
+  middleman-blog
   middleman-deploy (= 2.0.0.pre.alpha)
   middleman-livereload
   middleman-robots

@@ -8,7 +8,7 @@ gem 'dotenv'
 
 # Middleman Gems
 gem 'middleman', '~> 4.1'
-# gem 'middleman-blog'
+gem 'middleman-blog'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '= 2.0.0.pre.alpha'
 gem 'middleman-robots'

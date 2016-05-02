@@ -17,26 +17,26 @@ page '/sitemap.html', layout: false
 # Helpers
 ###
 
-# activate :blog do |blog|
-#   # This will add a prefix to all links, template references and source paths
-#   blog.name = 'blog'
-#   # blog.prefix = 'blog'
+activate :blog do |blog|
+  # This will add a prefix to all links, template references and source paths
+  blog.name = 'blog'
+  # blog.prefix = 'blog'
 
-#   blog.permalink = '{title}.html'
-#   blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
-#   blog.default_extension = ".md"
+  blog.permalink = '{title}.html'
+  blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
+  blog.default_extension = ".md"
 
-#   blog.tag_template = "tag.html"
+  blog.tag_template = "tag.html"
 
-#   blog.paginate = true
-#   blog.per_page = 10
-#   blog.page_link = 'page/{num}'
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = 'page/{num}'
 
-#   # blog.taglink = "tags/{tag}.html"
-#   # blog.layout = "layout"
-#   # blog.summary_separator = /(READMORE)/
-#   # blog.summary_length = 250
-# end
+  # blog.taglink = "tags/{tag}.html"
+  # blog.layout = "layout"
+  # blog.summary_separator = /(READMORE)/
+  # blog.summary_length = 250
+end
 
 
 configure :development do
