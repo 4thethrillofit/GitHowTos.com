@@ -9,17 +9,21 @@ READMORE
 <br />
 <br />
 
-```shell
-git remote -v
+```bash
 # View existing remotes
+$ git remote -v
 origin  https://github.com/OWNER/REPOSITORY.git (fetch)
 origin  https://github.com/OWNER/REPOSITORY.git (push)
 
-git remote rename origin destination
 # Change remote name from 'origin' to 'destination'
+$ git remote rename origin destination
 
-git remote -v
 # Verify remote's new name
+$ git remote -v
 destination  https://github.com/OWNER/REPOSITORY.git (fetch)
 destination  https://github.com/OWNER/REPOSITORY.git (push)
 ```
+
+<br />
+<br />
+_[Read more](https://help.github.com/articles/renaming-a-remote/)_
