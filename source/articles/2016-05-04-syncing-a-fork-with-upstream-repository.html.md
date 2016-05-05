@@ -1,7 +1,7 @@
 ---
 title: Syncing a fork with upstream repository
 date: 2016-05-04 20:56 UTC
-tags: Remote, Fork, Open Source
+tags: remote, fork, open source
 ---
 
 Sync your fork of a repository to keep it up-to-date with the upstream (the original) repository.

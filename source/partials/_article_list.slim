@@ -1,0 +1,20 @@
+.article-list.small-8.columns.row
+  - page_articles.each_with_index do |article, i|
+    article.article
+      header.article-header
+        h3.article-title = link_to article.title, article
+      .article-meta
+        - article.tags.each_with_index do |tag, i|
+          = link_to tag.titleize, tag_path(tag), class: 'tag-badge'
+      section.article-excerpt
+        p = article.summary
+    - if i < page_articles.count - 1
+      hr.dividing-line
+
+  - if paginate && num_pages > 1
+    nav.pagination role='pagination'
+      - if prev_page
+        = link_to '← Newer Posts', prev_page, class: 'newer-articles'
+      span.page-number Page #{page_number} of #{num_pages}
+      - if next_page
+        = link_to 'Older Posts →', next_page, class: 'older-articles'

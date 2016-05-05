@@ -28,8 +28,8 @@ activate :blog do |blog|
   blog.page_link = 'page/{num}'
 
   # blog.prefix = 'blog'
-  # blog.tag_template = "tag.html"
-  # blog.taglink = "tags/{tag}.html"
+  blog.tag_template = "tag.html"
+  blog.taglink = "/{tag}.html"
   blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
 end
