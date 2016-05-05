@@ -6,8 +6,7 @@ tags: remote
 
 The `git remote set-url` command changes an existing remote repository URL.
 READMORE
-<br />
-<br />
+<br /><br />
 
 ```bash
 # List existing remotes to get the name of the remote you want to change
@@ -24,7 +23,6 @@ origin  https://github.com/USERNAME/NEW_REPOSITORY.git (fetch)
 origin  https://github.com/USERNAME/NEW_REPOSITORY.git (push)
 ```
 
-<br />
-<br />
-_[Read more](https://help.github.com/articles/changing-a-remote-s-url/)_
+<br /><br />
+_[source](https://help.github.com/articles/changing-a-remote-s-url/)_
 

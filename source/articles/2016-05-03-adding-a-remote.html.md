@@ -7,8 +7,7 @@ tags: remote
 To add a new remote, use the `git remote add` command on the terminal, in the directory your repository is stored at.
 READMORE
 
-<br />
-<br />
+<br /> <br />
 
 ```bash
 # Set a new remote
@@ -20,7 +19,6 @@ origin  https://github.com/user/repo.git (fetch)
 origin  https://github.com/user/repo.git (push)
 ```
 
-<br />
-<br />
-_[Read more](https://help.github.com/articles/adding-a-remote/)_
+<br /><br />
+_[source](https://help.github.com/articles/adding-a-remote/)_
 

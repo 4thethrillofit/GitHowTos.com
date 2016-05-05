@@ -24,7 +24,6 @@ destination  https://github.com/OWNER/REPOSITORY.git (fetch)
 destination  https://github.com/OWNER/REPOSITORY.git (push)
 ```
 
-<br />
-<br />
-_[Read more](https://help.github.com/articles/renaming-a-remote/)_
+<br /><br />
+_[source](https://help.github.com/articles/renaming-a-remote/)_
 

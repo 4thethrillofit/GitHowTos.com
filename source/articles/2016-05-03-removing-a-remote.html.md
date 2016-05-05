@@ -6,8 +6,7 @@ tags: remote
 
 Use the `git remote rm` command to remove a remote URL from your repository.
 READMORE
-<br />
-<br />
+<br /><br />
 
 
 ```bash
@@ -29,7 +28,6 @@ origin  https://github.com/OWNER/REPOSITORY.git (push)
 
 
 
-<br />
-<br />
-_[Read more](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)_
+<br /><br />
+_[source](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)_
 
